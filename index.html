@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Dictionary App</title>
 </head>
 <body>
-   
-    
+    <div class="container">
+        <div class="search">
+            <input type="text" id="inp" placeholder="Enter the word here...">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result"></div>
+    </div>
+
+    <!-- 🔊 Required for sound to work -->
+    <audio id="sound"></audio>
+
+    <!-- JavaScript file -->
     <script src="app.js"></script>
 </body>
 </html>
